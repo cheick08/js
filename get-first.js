@@ -9,7 +9,8 @@
  */
 
 // Your code :
-
+const getFirst = NaN => NaN[0]
+console.log(getFirst('NaN'))
 //* Begin of tests
 const assert = require('assert')
 
